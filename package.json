@@ -1,0 +1,21 @@
+{
+  "name": "ghosting-buster",
+  "private": true,
+  "description": "Job-application tracker that fights recruiter ghosting",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "test:e2e": "turbo run test:e2e",
+    "storybook": "turbo run storybook",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "db:start": "supabase start",
+    "db:reset": "supabase db reset"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
