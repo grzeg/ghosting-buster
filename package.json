@@ -17,5 +17,19 @@
   },
   "engines": {
     "node": ">=22"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.21.0"
+    }
+  },
+  "devDependencies": {
+    "eslint": "^10.15.0",
+    "prettier": "^3.10.1",
+    "supabase": "^3.2.0",
+    "turbo": "^2.11.11",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.0"
   }
 }

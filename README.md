@@ -16,7 +16,7 @@ Dependencies are not installed yet. Run once from the repo root:
 pnpm add -D -w turbo prettier typescript eslint vitest
 pnpm --filter @ghosting-buster/config add @eslint/js typescript-eslint eslint
 pnpm --filter @ghosting-buster/core add zod            # needs Zod 4 (z.url, z.uuid)
-pnpm --filter @ghosting-buster/core add -D @ghosting-buster/config@workspace:* typescript eslint vitest
+pnpm --filter @ghosting-buster/core add -D '@ghosting-buster/config@workspace:*' typescript eslint vitest
 ```
 
 Database:
